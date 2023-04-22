@@ -28,6 +28,7 @@ public class EmailModel implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@EqualsAndHashCode.Include
+	@Getter
 	private Long id;
 
 	@Getter
